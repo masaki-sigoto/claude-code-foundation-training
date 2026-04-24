@@ -111,3 +111,4 @@ nav:
   - 画像挿入計画:
       - 画像挿入計画マスター: 11_visuals/image_insertion_plan.md
       - NotebookLM画像案依頼メモ: 11_visuals/notebooklm_image_brief.md
+      - NotebookLMコピペ用プロンプト集（全43点）: 11_visuals/notebooklm_ready_to_paste.md
