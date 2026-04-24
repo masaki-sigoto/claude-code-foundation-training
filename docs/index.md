@@ -8,6 +8,21 @@
 
 ---
 
+## PDF版（印刷・配布用）
+
+教材一式をPDFにまとめたものです。配布や印刷、オフライン参照にご利用ください。
+
+[:material-file-pdf-box: PDF版をダウンロード](assets/claude-code-foundation-training.pdf){ .md-button .md-button--primary }
+[:material-eye: 別タブでプレビュー](assets/claude-code-foundation-training.pdf){ .md-button target="_blank" }
+
+### このページでプレビュー
+
+<iframe src="assets/claude-code-foundation-training.pdf" width="100%" height="800" style="border: 1px solid #ccc;"></iframe>
+
+> ブラウザによってはプレビューが表示されない場合があります。その場合は上の「ダウンロード」または「別タブでプレビュー」ボタンをご利用ください。
+
+---
+
 ## 1. この教材の目的
 
 Claude Codeを導入してなんとなく触っているけれど、「結局どう指示すればよいのか」「どこまで任せてよいのか」が曖昧なまま使っている人に向けて、次の状態を目指します。

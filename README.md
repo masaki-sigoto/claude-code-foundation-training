@@ -10,6 +10,10 @@
 
 **https://masaki-sigoto.github.io/claude-code-foundation-training/**
 
+### PDF版（印刷・配布用）
+
+[配布用PDFを直接開く](https://masaki-sigoto.github.io/claude-code-foundation-training/assets/claude-code-foundation-training.pdf)（または公開サイトのトップページ内でもプレビュー可能）。
+
 ## このリポジトリの構成
 
 ```
