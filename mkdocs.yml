@@ -108,3 +108,6 @@ nav:
       - よくある質問16問: 09_faq/faq.md
   - チートシート:
       - 初心者向けチートシート: 10_cheatsheets/claude_code_beginner_cheatsheet.md
+  - 画像挿入計画:
+      - 画像挿入計画マスター: 11_visuals/image_insertion_plan.md
+      - NotebookLM画像案依頼メモ: 11_visuals/notebooklm_image_brief.md
