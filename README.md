@@ -130,26 +130,26 @@ ClaudeCode基礎勉強会/
 
 ## 7. 成果物一覧
 
-この教材プロジェクトで最終的に揃える成果物は以下の16ファイルです。
+この教材プロジェクトで最終的に揃える成果物は以下の一式です。
 
 | No. | パス | 概要 |
 |---|---|---|
 | 1 | README.md | 本ファイル。教材全体のトップページ |
 | 2 | CLAUDE.md | 教材制作プロジェクト用のClaude向けルール |
 | 3 | 01_curriculum/curriculum_overview.md | 勉強会全体の設計書・タイムテーブル |
-| 4 | 02_slides/slides_outline.md | スライドの章立てと投影本文 |
-| 5 | 03_scripts/lecturer_script.md | 講師の読み上げ台本 |
-| 6 | 04_handouts/handout_main.md | 受講者向け本編ハンドアウト |
-| 7 | 05_exercises/exercise_01_claude_md.md | 演習1：CLAUDE.mdを書いてみる |
-| 8 | 05_exercises/exercise_02_delegate.md | 演習2：作業を任せてみる |
-| 9 | 05_exercises/exercise_03_skill_idea.md | 演習3：自分のskill案を書く |
-| 10 | 06_templates/claude_md_template.md | CLAUDE.mdのひな形 |
-| 11 | 06_templates/request_template.md | 依頼文のひな形 |
-| 12 | 07_skills/skills_overview.md | skillsの役割と作り方の入門 |
-| 13 | 07_skills/sample_skill.md | skillsの具体サンプル |
-| 14 | 08_mcp/mcp_overview.md | MCPの概念説明 |
+| 4 | 02_slides/slide_structure.md | スライド構成案（30枚の章立て） |
+| 5 | 02_slides/slide_draft.md | 各スライド本文＋講師補足 |
+| 6 | 03_scripts/instructor_script.md | 講師台本（90分版） |
+| 7 | 04_handouts/participant_handout.md | 受講者ハンドアウト |
+| 8 | 05_exercises/exercises.md | 演習1〜5を収録した演習集 |
+| 9 | 06_templates/claude_md_template.md | CLAUDE.mdのひな形 |
+| 10 | 06_templates/memory_template.md | memoryのひな形 |
+| 11 | 06_templates/prompt_templates.md | 依頼文のひな形10種 |
+| 12 | 07_skills/skill_explanation.md | skillsの役割と作り方の入門 |
+| 13 | 07_skills/sample_skills/ | skillsの具体サンプル5種（sales-email／lms-build-check／blog-structure／meeting-to-tasks／folder-organizer） |
+| 14 | 08_mcp/mcp_explanation.md | MCPの概念説明 |
 | 15 | 09_faq/faq.md | よくある質問集 |
-| 16 | 10_cheatsheets/cheatsheet_basics.md | 一枚ものの早見表 |
+| 16 | 10_cheatsheets/claude_code_beginner_cheatsheet.md | 初心者向け一枚ものの早見表 |
 
 本READMEが指すのはこの一式です。ファイルごとに担当を分けて制作できます。
 
