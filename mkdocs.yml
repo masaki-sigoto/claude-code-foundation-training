@@ -1,0 +1,110 @@
+site_name: Claude Code基礎勉強会
+site_description: 非エンジニアの業務スタッフ向け Claude Code 勉強会の教材一式
+site_author: Claude Code基礎勉強会 制作チーム
+site_url: https://masaki-sigoto.github.io/claude-code-foundation-training/
+
+repo_name: masaki-sigoto/claude-code-foundation-training
+repo_url: https://github.com/masaki-sigoto/claude-code-foundation-training
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: ダークモードに切り替え
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: ライトモードに切り替え
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search:
+      lang: ja
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/masaki-sigoto/claude-code-foundation-training
+
+nav:
+  - はじめに: index.md
+  - カリキュラム:
+      - 講座設計（90分/120分/半日版）: 01_curriculum/curriculum_overview.md
+  - スライド:
+      - スライド構成案（30枚）: 02_slides/slide_structure.md
+      - スライド本文＋講師補足: 02_slides/slide_draft.md
+  - 講師台本:
+      - 90分版 講師台本: 03_scripts/instructor_script.md
+  - 受講者ハンドアウト:
+      - 受講者向けハンドアウト: 04_handouts/participant_handout.md
+  - 演習:
+      - 演習1〜5: 05_exercises/exercises.md
+  - テンプレート:
+      - CLAUDE.md ひな形: 06_templates/claude_md_template.md
+      - memory ひな形: 06_templates/memory_template.md
+      - 依頼テンプレート集（10種）: 06_templates/prompt_templates.md
+  - skills:
+      - skills 説明資料: 07_skills/skill_explanation.md
+      - サンプル：営業メール作成: 07_skills/sample_skills/sales-email/SKILL.md
+      - サンプル：LMSビルド確認: 07_skills/sample_skills/lms-build-check/SKILL.md
+      - サンプル：ブログ記事構成作成: 07_skills/sample_skills/blog-structure/SKILL.md
+      - サンプル：議事録からタスク化: 07_skills/sample_skills/meeting-to-tasks/SKILL.md
+      - サンプル：フォルダ整理提案: 07_skills/sample_skills/folder-organizer/SKILL.md
+  - MCP:
+      - MCP 説明資料: 08_mcp/mcp_explanation.md
+  - FAQ:
+      - よくある質問16問: 09_faq/faq.md
+  - チートシート:
+      - 初心者向けチートシート: 10_cheatsheets/claude_code_beginner_cheatsheet.md
