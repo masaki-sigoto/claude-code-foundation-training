@@ -24,9 +24,9 @@
 ├── .github/workflows/     # GitHub Pages 自動デプロイ
 └── docs/                  # 教材本体（公開サイトに表示される内容）
     ├── index.md
-    ├── 01_curriculum/     # 90分/120分/半日版の講座設計
+    ├── 01_curriculum/     # 60分版の講座設計
     ├── 02_slides/         # スライド構成と本文＋講師補足
-    ├── 03_scripts/        # 講師台本（90分版）
+    ├── 03_scripts/        # 講師台本（60分版）
     ├── 04_handouts/       # 受講者ハンドアウト
     ├── 05_exercises/      # 演習1〜5
     ├── 06_templates/      # CLAUDE.md・memory・依頼テンプレ

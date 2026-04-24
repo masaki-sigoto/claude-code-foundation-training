@@ -143,14 +143,13 @@ claude-code-foundation-training/
 
 | 版 | 想定時間 | 含まれる内容 |
 |---|---|---|
-| 短縮版 | 90分 | 全10章の概要＋軽めの演習1〜2個 |
-| 標準版 | 120分 | 全10章＋演習3個＋質疑応答 |
-| 半日版 | 4時間 | 全10章＋演習5個＋自分の業務用CLAUDE.md作成ワーク |
+| 60分版 | 60分 | 全10章を60分でひと回り。演習は1個を基本（時間があれば2個）、残りは紹介・配布資料扱い |
 
 実施判断の目安：
-- 初めて受講する人が多い場合は標準版（120分）を推奨
-- Claude Code未導入者が混じる場合は、事前にインストールを済ませておくか、半日版にして導入支援の時間を確保
-- 時間が取れない場合でも、90分版で「CLAUDE.mdを書く」演習は必ず入れる
+- 60分で全10章をひと回りするため、各章は「重点扱い／短く触れる／時間があれば／配布資料扱い」の4段階で強弱をつける
+- 演習は「演習1（CLAUDE.mdを書く）」を必ず実施。残り時間に応じて演習2まで簡易実施
+- Claude Code未導入者が混じる場合は、事前にインストールを済ませておく（60分内に導入支援の時間は取れない）
+- より深く扱いたい場合は、別回や発展編を別途設定する想定
 
 ---
 
@@ -163,9 +162,9 @@ claude-code-foundation-training/
 | 1 | README.md | 本ファイル。教材全体のトップページ |
 | 2 | CLAUDE.md | 教材制作プロジェクト用のClaude向けルール |
 | 3 | 01_curriculum/curriculum_overview.md | 勉強会全体の設計書・タイムテーブル |
-| 4 | 02_slides/slide_structure.md | スライド構成案（30枚の章立て） |
+| 4 | 02_slides/slide_structure.md | スライド構成案（全57枚の章立て） |
 | 5 | 02_slides/slide_draft.md | 各スライド本文＋講師補足 |
-| 6 | 03_scripts/instructor_script.md | 講師台本（90分版） |
+| 6 | 03_scripts/instructor_script.md | 講師台本（60分版） |
 | 7 | 04_handouts/participant_handout.md | 受講者ハンドアウト |
 | 8 | 05_exercises/exercises.md | 演習1〜5を収録した演習集 |
 | 9 | 06_templates/claude_md_template.md | CLAUDE.mdのひな形 |

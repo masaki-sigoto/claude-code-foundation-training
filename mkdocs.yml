@@ -81,12 +81,12 @@ extra:
 nav:
   - はじめに: index.md
   - カリキュラム:
-      - 講座設計（90分/120分/半日版）: 01_curriculum/curriculum_overview.md
+      - 講座設計（60分版）: 01_curriculum/curriculum_overview.md
   - スライド:
-      - スライド構成案（30枚）: 02_slides/slide_structure.md
+      - スライド構成案（全57枚）: 02_slides/slide_structure.md
       - スライド本文＋講師補足: 02_slides/slide_draft.md
   - 講師台本:
-      - 90分版 講師台本: 03_scripts/instructor_script.md
+      - 60分版 講師台本: 03_scripts/instructor_script.md
   - 受講者ハンドアウト:
       - 受講者向けハンドアウト: 04_handouts/participant_handout.md
   - 演習:
